@@ -1,14 +1,14 @@
 {
   "name": "starwars-names-wannabee",
-  "version": "1.2.0-beta.0",
+  "version": "1.2.1",
   "description": "Get random Star Wars names",
   "main": "src/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "mocha src/index.test.js -w"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/zin42/starwars-names.git"
+    "url": "git+https://github.com/zin42/starwars-names-wannabee.git"
   },
   "keywords": [
     "random",
@@ -18,10 +18,14 @@
   "author": "Javier Romario Harford <javierharford@gmail.com>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/zin42/starwars-names/issues"
+    "url": "https://github.com/zin42/starwars-names-wannabee/issues"
   },
-  "homepage": "https://github.com/zin42/starwars-names#readme",
+  "homepage": "https://github.com/zin42/starwars-names-wannabee#readme",
   "dependencies": {
     "unique-random-array": "1.0.0"
+  },
+  "devDependencies": {
+    "chai": "4.1.1",
+    "mocha": "3.5.0"
   }
 }
