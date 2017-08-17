@@ -1,14 +1,15 @@
 {
   "name": "starwars-names-wannabee",
-  "version": "1.2.1",
+  "version": "0.0.0-development",
   "description": "Get random Star Wars names",
   "main": "src/index.js",
   "scripts": {
-    "test": "mocha src/index.test.js -w"
+    "test": "mocha src/index.test.js -w",
+    "semantic-release": "semantic-release pre && npm publish && semantic-release post"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/zin42/starwars-names-wannabee.git"
+    "url": "https://github.com/zin42/starwars-names-wannabee.git"
   },
   "keywords": [
     "random",
@@ -26,6 +27,7 @@
   },
   "devDependencies": {
     "chai": "4.1.1",
-    "mocha": "3.5.0"
+    "mocha": "3.5.0",
+    "semantic-release": "^7.0.1"
   }
 }
